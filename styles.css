@@ -53,3 +53,33 @@ header .shopping-car{
     grid-column: 8/9;
     font-size: 1.3em;
 }
+
+/* MAIN */
+
+.wrapper{
+    background: linear-gradient(rgba(16, 16, 16, .6), rgba(16, 16, 16, .8)) , url(./imgs/XQWQCO34KZHW6SHGZV2HEP53GE.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 83vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.wrapper .info-content{
+    grid-column: 7/10;
+    grid-row: 3/7;
+}
+
+.wrapper .info-content h2{
+    color: white;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.wrapper .info-content h1{
+    color: var(--main-color);
+    font-size: 5em;
+    
+}
