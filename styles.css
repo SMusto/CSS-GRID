@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .navbar{
@@ -104,3 +105,48 @@ header .shopping-car{
     transition: all ease 200ms;
     cursor: pointer;
 }
+
+/* FOOTER */
+
+footer{
+    height: 103px;
+    background-color: var(--black);
+}
+
+footer .marketing-section{
+    display: grid;
+    grid-template-areas: 
+    'listen-online follow-me social-network';
+    height: 100%;
+    align-items: center;
+}
+
+.marketing-section .listen-online{
+    background-color: var(--main-color);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listen-online .fa-solid{
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+
+.listen-online  h3{
+    font-size: 1.5em;
+}
+
+.marketing-section .follow-me{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+}
+
+.marketing-section .social-network .fa-brands{
+    color: var(--main-color);
+    font-size: 1.7em;
+    margin-right: 10px;
+   }

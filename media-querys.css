@@ -52,5 +52,16 @@
    .wrapper .info-content h3{
     font-size: 1.1em;
    }
-    
+
+   /* FOOTER */
+   footer{
+    height: 55px;
+   }
+   
+   .marketing-section .follow-me{
+    display: none;
+   }
+    .marketing-section .social-network .fa-brands{
+        margin-left: 20px;
+    }
 }
