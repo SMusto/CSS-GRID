@@ -34,5 +34,23 @@
     transform: translateX(0%);
    }
     
+   /* MAIN */
+
+   .wrapper .info-content{
+    grid-column: 2/9;
+    grid-row: 6/8;
+   }
+
+   .wrapper .info-content h2{
+    font-size: 2em;
+   }
+
+   .wrapper .info-content h1{
+    font-size: 4em;
+   }
+
+   .wrapper .info-content h3{
+    font-size: 1.1em;
+   }
     
 }
