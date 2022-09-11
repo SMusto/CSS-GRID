@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px){
+    
+    header{
+        position: relative;
+        align-items: center;
+    }
+    
+    header .shopping-car{
+        display: none;
+    }
+
+    header .menu-bar{
+        display: block;
+        position: absolute;
+        right: 100px;
+        font-size: 2.6em;
+    }
+
+   .navbar .menu{
+    width: 80%;
+    display: grid;
+    position: absolute;
+    background-color: var(--main-color);
+    height: 50vh;
+    top: 60px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    right: -160px;
+    transform: translateX(100%);
+    transition: all ease 700ms;
+   }
+
+    .navbar .menu-toggle{
+    transform: translateX(0%);
+   }
+    
+    
+}

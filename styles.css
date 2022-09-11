@@ -14,36 +14,35 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+.navbar{
     background-color: var(--main-color);
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
+    position: relative;
 }
 
-header .logo{
+.navbar .logo{
     grid-column: 2/3;
 }
 
-.logo img{
+.navbar .logo img{
     height: 60px;
     width: 60px;
 }
 
-header .navbar{
-    grid-column: 3/7;
-}
-
-header .navbar .menu{
+.navbar .menu{
     display: flex;
+    grid-column: 3/7;
     justify-content: space-around;
     list-style: none;
 }
 
+
 header .navbar .menu a{
     color: var(--black);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .menu-bar{
@@ -52,4 +51,5 @@ header .menu-bar{
 
 header .shopping-car{
     grid-column: 8/9;
+    font-size: 1.3em;
 }
